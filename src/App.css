@@ -14,11 +14,12 @@ input,
 select,
 option,
 textarea {
-  background-color: #eeeeee;
+  background-color:lightblue;
   border: none;
   padding: 5px 5px 5px 5px;
   border-radius: 0.2rem;
   resize: none;
+  text-align: center;
 }
 
 input,
@@ -374,7 +375,7 @@ footer > menu {
 }
 
 .reservation-form {
-  padding: 2rem 0 0.5rem 0;
+  padding: 1rem 0 0.5rem 0;
   text-align: center;
 }
 
