@@ -8,7 +8,7 @@ export default function Navigation(props) {
       ) : (
         <Link to="/">
           <img
-            src={require("../assets/nav-logo.png")}
+            src={require("../../assets/nav-logo.png")}
             alt="Little Lemon logo"
             className="nav-image"
           ></img>
@@ -22,7 +22,7 @@ export default function Navigation(props) {
       </Link>
       <a
         className="hover-effect"
-        href={require("../assets/menu.webp")}
+        href={require("../../assets/menu.webp")}
         target="_blank"
         rel="noreferrer"
       >

@@ -5,9 +5,9 @@ export default function Footer() {
       <menu>
         <li className="img-footer">
           <img
-            src={require("../assets/footer-logo.png")}
+            src={require("../../assets/footer-logo.png")}
             alt="Little Lemon logo"
-          ></img>
+          />
         </li>
         <li className="contact">
           <h1 className="footer-header">Navigation</h1>
@@ -15,7 +15,7 @@ export default function Footer() {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <a
-              href={require("../assets/menu.webp")}
+              href={require("../../assets/menu.webp")}
               target="_blank"
               rel="noreferrer"
             >
