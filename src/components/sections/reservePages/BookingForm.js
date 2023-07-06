@@ -74,11 +74,11 @@ export default function ReservationForm(props) {
         <input
           type="tel"
           id="phonenum"
-          placeholder="(xxx)-xxx-xxxx"
+          placeholder="xxxxx-xxxxxx"
           value={tel}
           required
-          minLength={10}
-          maxLength={25}
+          minLength={11}
+          maxLength={11}
           onChange={(e) => setTel(e.target.value)}
         ></input>
       </div>
@@ -126,7 +126,7 @@ export default function ReservationForm(props) {
           <option>Birthday</option>
           <option>Anniversary</option>
           <option>Engagement</option>
-          <option>Other</option>
+          <option>Other, Feel Free To state in additional comments</option>
         </select>
       </div>
 
@@ -138,9 +138,10 @@ export default function ReservationForm(props) {
           onChange={(e) => setPreferences(e.target.value)}
         >
           <option>None</option>
-          <option>Indoors</option>
-          <option>Outdoor (Patio)</option>
-          <option>Outdoor (Sidewalk)</option>
+          <option>Restaurant</option>
+          <option>Bar</option>
+          <option>Outside (Back)</option>
+          <option>Outside (Front)</option>
         </select>
       </div>
 
@@ -150,7 +151,7 @@ export default function ReservationForm(props) {
           id="comments"
           rows={8}
           cols={50}
-          placeholder="Additional Comments"
+          placeholder="Anything else you want to tell us?"
           value={comments}
           onChange={(e) => setComments(e.target.value)}
         ></textarea>
@@ -160,8 +161,7 @@ export default function ReservationForm(props) {
         <br></br>
         <small>
           <p>
-            Note: You cannot edit your reservation after submission. Please
-            double-check your answer before submitting your reservation request.
+            Once Booking is Confirmed, if you need any assistance please email or call us directly
           </p>
         </small>
         <Link className="action-button" to="/confirmation">
