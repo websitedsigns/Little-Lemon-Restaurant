@@ -4,6 +4,7 @@ export default function Footer() {
     <footer>
       <menu>
         <li className="img-footer">
+          
           <img
             src={require("../../assets/footer-logo.png")}
             alt="Little Lemon logo"
@@ -12,6 +13,7 @@ export default function Footer() {
         <li className="contact">
           <h1 className="footer-header">Navigation</h1>
           <ul className="footer-links">
+            <br></br>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <a
@@ -30,10 +32,11 @@ export default function Footer() {
         <li>
           <h1 className="footer-header">Contact</h1>
           <ul className="footer-links">
-            <li>2395 Maldove Way,</li>
-            <li>Chicago Illinois</li>
             <br></br>
-            <li>(629)-243-6827</li>
+            <li>123 Soho Street</li>
+            <li>London</li>
+            <br></br>
+            <li>020 244 5587</li>
             <br></br>
             <a
               href="mailto: info@littlelemon.com"
@@ -47,6 +50,7 @@ export default function Footer() {
         <li>
           <h1 className="footer-header">Connect</h1>
           <ul className="footer-links">
+            <br></br>
             <a
               href="https://www.facebook.com/thelittlelemonshop/"
               target="_blank"
