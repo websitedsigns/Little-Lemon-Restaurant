@@ -147,6 +147,7 @@ Link:link {
   animation-duration: 0.33s;
   animation-timing-function: ease-in-out;
   animation-name: slideDownFade;
+  text-align: center;
 }
 
 .specials-topbar {
@@ -158,12 +159,14 @@ Link:link {
   font-size: 2.5rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .specials-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2vw;
+  text-align: center;
 }
 
 .menu-card {
@@ -427,31 +430,38 @@ footer > menu {
 @media screen and (max-width: 60rem) {
   .action-button {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .specials {
     margin: 0 -2rem 0 -2rem;
+    text-align: center;
   }
 
   .specials-topbar {
     flex-wrap: wrap;
     margin-left: 2rem;
+    text-align: center;
   }
 
   .specials-cards {
     display: none;
+    text-align: center;
   }
 
   .specials-carousel {
     display: block;
+    text-align: center;
   }
 
   .menu-card {
     padding-bottom: 2rem;
+    text-align: center;
   }
 
   .testimonials-topbar > h1 {
     margin: 2rem 0 1rem 0;
+    text-align: center;
   }
 
   .double-image {

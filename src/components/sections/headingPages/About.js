@@ -4,10 +4,10 @@ export default function About() {
             <section className="hero-text">
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
-                <p className="about-subtext">Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario. 
-                Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago, 
-                and were inspired to bring the flavors of their hometown in Italy to the people of Chicago. The two brothers 
-                continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>
+                <p className="about-subtext">Little Lemon opened in 2021 by two Italian brothers, Luigi and Mario. 
+                Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in London, 
+                and were inspired to bring the flavors of their hometown in Italy to the people of London. The two brothers 
+                plan to introduce Little Lemon to more cities across the country.</p>
             </section>
 
             <section className="double-image">
