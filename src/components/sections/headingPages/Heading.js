@@ -5,8 +5,8 @@ export default function Heading() {
             <article className="call-to-action">
                 <section className="hero-text">
                     <h1>Little Lemon</h1>
-                    <h2>Chicago</h2>
-                    <p className="subsection">We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus
+                    <h2>London</h2>
+                    <p className="subsection">We are a family owned Mediterranean restaurant, located on Soho Street in London. We focus
                     on traditional recipes served with a modern twist.</p>
                     <br></br>
                     <Link className="action-button" to="/reservations">Reserve a table</Link>
